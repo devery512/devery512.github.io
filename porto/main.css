@@ -1,0 +1,133 @@
+*{
+	maring: 0;
+	padding:0;
+	outline: none;
+	vertical-align: baseline;
+	font-size: 100%
+}
+
+body{
+	width: 100%;
+	background: #0E0E0E;
+	font-family: 'Poppins', sans-serif;
+}
+
+body p{
+	font-family: 'Raleway', sans-serif;
+}
+nav{
+	padding-top: 20px;
+	height: 70px;
+}
+
+nav a {
+
+	margin: 30px;
+	font-size: 16px;
+	color: white;
+}
+
+
+a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+.nav-left{
+	float: left;
+}
+
+.nav-right{
+	float: right;
+}
+
+header{
+	margin:50px 100px;
+}
+
+ul li{
+	margin: 5px;
+	display: inline;
+	text-decoration: none;
+	color: white;
+}
+
+box{
+	border: solid red 1px;
+}
+
+.main-row{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.rowone{
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.sec1{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: lightgre;
+}
+.sec2{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.head{
+	padding: 75px 50px;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.header{
+	color: white;
+	
+}
+
+.header:after {
+	content: "";
+	display: block;
+	margin-right: auto;
+	width: 30%;
+	padding-top: 5px;
+	border-bottom: solid red 3px;
+}
+.headertwo{
+	padding-left: 50px;
+	color: white;
+}
+
+.summary{
+	color: white;
+}
+.summarytwo{
+	padding: 50px;
+	text-align: center;
+	color: white;
+}
+
+
+.work2 {
+      width: 100%;
+      text-align: center;
+}
+ 
+.work2 img {
+      margin: 1%;
+      width: 90%;
+}
+
+footer p {
+      text-align: center;
+      color: grey;
+      margin: 60px auto;
