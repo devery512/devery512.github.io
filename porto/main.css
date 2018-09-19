@@ -118,7 +118,16 @@ box{
 	text-align: center;
 	color: white;
 }
+.skills{
+	margin: 0;
+	list-style-type: none;
+}
 
+.bar{
+	width: 80%;
+	background: white;
+	color: white;
+}
 
 .work2 {
       width: 100%;
