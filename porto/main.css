@@ -60,9 +60,7 @@ i {
 	font-size: 20px;
 }
 
-box{
-	border: solid red 1px;
-}
+/* used to determine the layout for everything alignment wise. box{border: solid red 1px;}*/
 
 .main-row{
 	margin-top: 50px;
@@ -78,7 +76,6 @@ box{
 .sec1{
 	margin-top: 5px;
 	margin-bottom: 5px;
-	background-color: lightgre;
 }
 .sec2{
 	margin-top: 5px;
@@ -101,13 +98,22 @@ box{
 	content: "";
 	display: block;
 	margin-right: auto;
-	width: 30%;
+	width: 7.6em;
 	padding-top: 5px;
 	border-bottom: solid red 3px;
 }
 .headertwo{
 	padding-left: 50px;
 	color: white;
+}
+
+.headertwo:after{
+	content: "";
+	display: block;
+	margin-right: auto;
+	width: 7em;
+	padding-top: 5px;
+	border-bottom: solid red 3px
 }
 
 .summary{
@@ -139,7 +145,14 @@ box{
       width: 90%;
 }
 
+.progress {background: #0E0E0E;
+	border: 0px solid rgba(245, 245, 245, 1);
+	border-radius: 4px;
+	height: 20px;}
+.progress-bar-custom {background: rgba(255, 255, 255, 1);}
+
 footer p {
       text-align: center;
       color: grey;
       margin: 60px auto;
+}
