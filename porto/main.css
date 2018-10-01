@@ -1,5 +1,5 @@
 *{
-	maring: 0;
+	margin: 0;
 	padding:0;
 	outline: none;
 	vertical-align: baseline;
@@ -143,6 +143,34 @@ i {
 .work2 img {
       margin: 1%;
       width: 90%;
+}
+.containerpic {
+	position: relative;
+}
+
+.content {
+	margin: 20%;
+	transform: translate(0%, 100%);
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.overlay {
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 5%;
+  	top: 0;
+  	height: 96.2%;
+  	width: 90%;
+	opacity: 0;
+	transition: .5s ease;
+	background: rgba(23,11,8,0.8);
+	/*background: rgba(28,84,79,0.8);*/
+}
+
+.containerpic:hover .overlay {
+	opacity: 1;
 }
 
 .progress {background: #0E0E0E;
