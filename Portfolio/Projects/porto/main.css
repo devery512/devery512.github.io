@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding:0;
+	outline: none;
+	vertical-align: baseline;
+	font-size: 100%
+}
+
+body{
+	width: 100%;
+	background: #0E0E0E;
+	font-family: 'Poppins', sans-serif;
+}
+
+body p{
+	font-family: 'Raleway', sans-serif;
+}
+nav{
+	padding-top: 20px;
+	height: 70px;
+}
+
+nav a {
+
+	margin: 30px;
+	font-size: 16px;
+	color: white;
+}
+
+
+a:visited,:active{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+a:active {
+  color: white;
+}
+
+.nav-left{
+	float: left;
+}
+
+.nav-right{
+	float: right;
+}
+
+header{
+	margin:50px 100px;
+}
+
+ul li{
+	margin: 5px;
+	display: inline;
+	text-decoration: none;
+	color: white;
+}
+i {
+	font-size: 20px;
+}
+
+/* used to determine the layout for everything alignment wise. box{border: solid red 1px;}*/
+
+.main-row{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.rowone{
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.sec1{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.sec2{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.head{
+	padding: 75px 50px;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+.header{
+	color: white;
+	
+}
+
+.header:after {
+	content: "";
+	display: block;
+	margin-right: auto;
+	width: 7.6em;
+	padding-top: 5px;
+	border-bottom: solid red 3px;
+}
+.headertwo{
+	padding-left: 50px;
+	color: white;
+}
+
+.headertwo:after{
+	content: "";
+	display: block;
+	margin-right: auto;
+	width: 7em;
+	padding-top: 5px;
+	border-bottom: solid red 3px
+}
+
+.summary{
+	color: white;
+}
+.summarytwo{
+	padding: 50px;
+	text-align: center;
+	color: white;
+}
+.skills{
+	margin: 0;
+	list-style-type: none;
+}
+
+.bar{
+	width: 80%;
+	background: white;
+	color: white;
+}
+
+.work2 {
+      width: 100%;
+      text-align: center;
+}
+ 
+.work2 img {
+      margin: 1%;
+      width: 90%;
+}
+.containerpic {
+	position: relative;
+}
+
+.content {
+	margin: 0%;
+	transform: translate(0%, 100%);
+	color: #fff;
+	text-transform: downcase;
+	font-size: 28px;
+}
+
+.overlay {
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 5%;
+  	top: 0;
+  	height: 96.2%;
+  	width: 90%;
+	opacity: 0;
+	transition: .5s ease;
+	background: rgba(23,11,8,0.8);
+	/*background: rgba(28,84,79,0.8);*/
+}
+
+.containerpic:hover .overlay {
+	opacity: 1;
+}
+
+.progress {background: #0E0E0E;
+	border: 0px solid rgba(245, 245, 245, 1);
+	border-radius: 4px;
+	height: 20px;}
+.progress-bar-custom {background: rgba(255, 255, 255, 1);}
+
+footer p {
+      text-align: center;
+      color: grey;
+      margin: 60px auto;
+}
